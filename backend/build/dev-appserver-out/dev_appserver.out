@@ -1,3 +1,0 @@
-Error occurred during initialization of VM
-Error opening zip file or JAR manifest missing : C:\Users\mohamed\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\lib\agent\appengine-agent.jar
-agent library failed to init: instrument

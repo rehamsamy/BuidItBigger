@@ -1,4 +1,4 @@
-package com.udacity.gradle.builditbigger;
+package builditbigger;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,7 +9,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import builditbigger.EndpointsAsyncTask;
+
+import com.udacity.gradle.builditbigger.R;
 
 
 public class MainActivity extends AppCompatActivity {
