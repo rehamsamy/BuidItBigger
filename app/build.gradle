@@ -65,7 +65,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+
 
     implementation project(':JokeJavaLibrary')
     implementation project(':JokeAndroidLibrary')
@@ -79,3 +80,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
     implementation 'junit:junit:4.12'
 }
+

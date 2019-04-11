@@ -23,6 +23,7 @@ public class MyClass {
 
     public static String getRandomJoke() {
         return jokes[random.nextInt(jokes.length)];
+
     }
 
 }
