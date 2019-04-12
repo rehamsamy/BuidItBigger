@@ -23,6 +23,8 @@ import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 import java.io.IOException;
 import java.security.AccessControlContext;
 
+import androidTest.NonString;
+
 public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
     private static MyApi myApiService = null;
     private Context context;
@@ -34,6 +36,9 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
     }
 
     public EndpointsAsyncTask(AccessControlContext context) {
+    }
+
+    public EndpointsAsyncTask(NonString nonString) {
     }
 
 

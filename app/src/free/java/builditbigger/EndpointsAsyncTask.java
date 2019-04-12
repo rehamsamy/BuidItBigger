@@ -26,6 +26,12 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
     private Context context;
     InterstitialAd interstitialAd;
 
+   public EndpointsAsyncTask (Context context){
+       this.context=context;
+   }
+
+
+
     @Override
     protected String doInBackground(Pair<Context, String>... params) {
         if(myApiService == null) {  // Only do this once
