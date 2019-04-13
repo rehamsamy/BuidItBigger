@@ -49,11 +49,14 @@ appengine {  // App Engine tasks configuration
 
        // C:\Users\mohamed\AppData\Local\Google\Cloud SDK\google-cloud-sdk
     }
-    appengine.tools.cloudSdkHome = "C:\\Users\\mohamed\\AppData\\Local\\Google\\Cloud SDK/google-cloud-sdk"
-
+   // appengine.tools.cloudSdkHome = "C:\\Users\\Mohamed\\AppData\\Local\\Google\\Cloud SDK/google-cloud-sdk"
+    tools.cloudSdkHome = "C:/Users/mohamed/AppData/Local/Google/Cloud SDK/google-cloud-sdk"
 
     run {
         host = "0.0.0.0"
-        port 8080
+        port = 8080
     }
 }
+
+
+
