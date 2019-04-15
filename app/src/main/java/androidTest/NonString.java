@@ -15,7 +15,11 @@ public class NonString {
 
     private static final String LOG_TAG = NonString.class.getSimpleName();
 
+    @Rule
+    public ActivityTestRule<MainActivity> activityTestRule =
+            new ActivityTestRule<MainActivity>(MainActivity.class);
 
+    @Test
     public void test() {
         String result = null;
        EndpointsAsyncTask task=new EndpointsAsyncTask(getContext());
