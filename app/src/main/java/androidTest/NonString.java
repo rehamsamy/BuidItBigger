@@ -2,9 +2,12 @@ package androidTest;
 
 import android.util.Log;
 
+import org.junit.Rule;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import builditbigger.EndpointsAsyncTask;
+import com.udacity.gradle.builditbigger.EndpointsAsyncTask;
+import com.udacity.gradle.builditbigger.MainActivity;
 
 
 import static java.security.AccessController.getContext;
@@ -22,7 +25,7 @@ public class NonString {
     @Test
     public void test() {
         String result = null;
-       EndpointsAsyncTask task=new EndpointsAsyncTask(getContext());
+       EndpointsAsyncTask task=new EndpointsAsyncTask();
         task.execute();
         try {
             result = task.get();
