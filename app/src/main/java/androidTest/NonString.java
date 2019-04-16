@@ -22,6 +22,7 @@ public class NonString {
     public ActivityTestRule<MainActivity> activityTestRule =
             new ActivityTestRule<MainActivity>(MainActivity.class);
 
+
     @Test
     public void test() {
         String result = null;
