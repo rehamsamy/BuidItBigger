@@ -8,6 +8,7 @@ public class JokeDisplayActivity extends AppCompatActivity {
    // public final static String INTENT_JOKE = "INTENT_JOKE";
     String joke;
     TextView textViewJoke;
+    public static final String EXTRAS_JOKE = "joke";
 
 
     @Override

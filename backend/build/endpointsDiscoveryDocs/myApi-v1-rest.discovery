@@ -20,6 +20,17 @@
  "id": "myApi:v1",
  "kind": "discovery#restDescription",
  "methods": {
+  "getRandomJoke": {
+   "httpMethod": "GET",
+   "id": "myApi.getRandomJoke",
+   "path": "mybean",
+   "response": {
+    "$ref": "MyBean"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
   "sayHi": {
    "httpMethod": "POST",
    "id": "myApi.sayHi",
